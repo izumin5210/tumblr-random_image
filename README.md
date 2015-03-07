@@ -1,6 +1,6 @@
 # Tumblr::RandomImage
 
-TODO: Write a gem description
+Get random images from tumblrs.
 
 ## Installation
 
@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+client = Tumblr::Client.new
+
+client.random_image("shinchokudodesuka.tumblr.com")
+# => "http://40.media.tumblr.com/fb58d237c91fda8e448cae5ed068ecf2/tumblr_mqnw8emZ3n1sckns5o1_1280.jpg"
+```
 
 ## Contributing
 
