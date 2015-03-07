@@ -21,3 +21,9 @@ module Tumblr
     end
   end
 end
+
+module Tumblr
+  class Client
+    prepend Tumblr::RandomImage
+  end
+end
